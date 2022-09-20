@@ -33,6 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution: [frontendmentor.io](https://your-solution-url.com)
+
 - Live Site: [netlify.app](https://your-live-site-url.com)
 
 ## My process
@@ -40,6 +41,11 @@ Users should be able to:
 ### Workflow
 
 - Preparing workflow (Installing React, Adding Assets, Preparing README.md)
+
+- Identifying components
+  - Layout, Wrapper, Header, MainMenu, Hero, FastSignupForm, 
+  HowWorks, Testimonial, EarlyAccess, Footer, FooterMenu 
+
 
 ### Built with
 

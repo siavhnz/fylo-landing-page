@@ -1,7 +1,8 @@
 import "./App.css";
+import Fylo from "./pages/Fylo";
 
 function App() {
-  return <div></div>;
+  return <Fylo />;
 }
 
 export default App;

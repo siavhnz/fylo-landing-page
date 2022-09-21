@@ -46,6 +46,9 @@ Users should be able to:
   - Layout, Wrapper, Header, MainMenu, Hero, FastSignupForm, 
   HowWorks, Testimonial, EarlyAccess, Footer, FooterMenu 
 
+- Creating components (Fylo page added, FooterMenu deleted)
+
+
 
 ### Built with
 
@@ -61,6 +64,7 @@ Users should be able to:
 
 
 ### Continued development
+
 
 ### Useful resources
 

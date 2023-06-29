@@ -1,10 +1,19 @@
+.container {
+  background-image: url("../images/bg-curve.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
 .how-works {
-  /* background-image: url("../images/bg-curve-mobile.svg");
-  background-repeat: no-repeat; */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 5.25rem;
+  padding-bottom: 3.5rem;
+  margin-top: 6rem;
 }
 
 .img {
-  margin-top: 11.25rem;
   margin-bottom: 1rem;
 }
 
@@ -73,8 +82,14 @@
 }
 
 @media (min-width: 1024px) {
+  .container {
+    background-position: center;
+    margin-top: 10.75rem;
+  }
+
   .how-works {
     margin-top: 16rem;
+    padding-bottom: 7rem;
   }
 
   .img {
@@ -101,5 +116,12 @@
   .call-to-action {
     margin-top: -0.25rem;
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .how-works {
+    max-width: 1330px;
+    margin: auto;
   }
 }

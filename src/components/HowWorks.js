@@ -6,7 +6,7 @@ import { ReactComponent as ArrowIcon } from "../images/icon-arrow.svg";
 
 const HowWorks = () => {
   return (
-    <Wrapper>
+    <div className={styleUtils.container}>
       <div className={styleUtils["how-works"]}>
         <img src={Illustration} className={styleUtils.img} alt="how it works" />
         <div className={styleUtils.info}>
@@ -24,13 +24,17 @@ const HowWorks = () => {
           <div className={styleUtils["call-to-action-holder"]}>
             <a className={styleUtils["call-to-action"]} href="/">
               <span>See How Fylo works</span>
-              <ArrowIcon focusable="false" aria-hidden="true" className={styleUtils["arrow-icon"]} />
+              <ArrowIcon
+                focusable="false"
+                aria-hidden="true"
+                className={styleUtils["arrow-icon"]}
+              />
             </a>
           </div>
           <Testimonial />
         </div>
       </div>
-    </Wrapper>
+    </div>
   );
 };
 

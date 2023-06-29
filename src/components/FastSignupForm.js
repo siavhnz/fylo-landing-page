@@ -12,9 +12,6 @@ const FastSignup = (props) => {
 
   const handleClick = (event) => {
     event.preventDefault();
-
-    textInput.current.value;
-
     const isEmailValid = validateEmail(textInput.current.value);
     if (isEmailValid) {
       setError({

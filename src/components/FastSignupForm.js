@@ -22,13 +22,17 @@ const FastSignup = (props) => {
   };
 
   return (
-    <form onSubmit={handleClick}>
+    <form className={props.formClass} onSubmit={handleClick}>
       <TextInput
         ref={textInput}
+        errorTheme={props.errorTheme}
         validity={error}
         input={{ type: "text", placeholder: inputPlaceholder }}
+        textClass={props.textClass}
       />
-      <Button type="submit">{btnText}</Button>
+      <Button type="submit" className={props.buttonClass}>
+        {btnText}
+      </Button>
     </form>
   );
 };

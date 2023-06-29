@@ -1,8 +1,10 @@
+import styleUtils from "./MainMenu.module.css";
+
 const MainMenu = () => {
-  const data = ["Features", "Team", "Sing In"];
+  const data = ["Features", "Team", "Sign In"];
 
   return (
-    <nav>
+    <nav className={styleUtils.menu}>
       <ul>
         {data.map((item) => {
           return (
@@ -11,7 +13,9 @@ const MainMenu = () => {
                 It must be a route Link but for this solution
                 I use anchar
             */}
-              <a href="./">{item}</a>
+              <a href="./" className={styleUtils.item}>
+                {item}
+              </a>
             </li>
           );
         })}

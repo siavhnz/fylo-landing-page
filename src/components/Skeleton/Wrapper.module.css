@@ -1,3 +1,13 @@
 .wrapper {
     /* control the width of a component */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        max-width: 1330px;
+        margin: auto;
+    }
+    
 }

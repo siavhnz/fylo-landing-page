@@ -1,13 +1,15 @@
 import Wrapper from "./Wrapper";
-import { ReactComponent as Logo } from "../../images/logo.svg";
+import Logo from "../../images/logo.svg";
 import MainMenu from "../MainMenu";
+import styleUtils from "./Header.module.css";
 
 const Header = () => {
   return (
     <header>
-      <Wrapper>
-        <a href="./" aria-label="logo">
-          <Logo focusable="false" title="logo" />
+      <Wrapper className={styleUtils.header}>
+        {/* it must be replace with a route Link */}
+        <a href="./" aria-label="logo" className={styleUtils.logo}>
+          <img alt="logo" src={Logo} />
         </a>
         <MainMenu />
       </Wrapper>

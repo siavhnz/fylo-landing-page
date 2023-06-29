@@ -1,4 +1,5 @@
 import { forwardRef } from "react";
+import styleUtils from "./TextInput.module.css";
 
 /**
  *  To use this component you must provide
@@ -14,23 +15,34 @@ import { forwardRef } from "react";
 
 const TextInput = forwardRef((props, ref) => {
   const { hasError, errorMessage } = { ...props.validity };
+  const errorTheme = props.errorTheme;
   let input = { ...props.input };
 
   let error,
-    inputClasses = "";
+    inputClasses = styleUtils["text-input"];
 
   if (hasError) {
     // Show border red on error
-    inputClasses = "";
+    inputClasses = `${styleUtils["text-input"]} ${styleUtils["border-red"]}`;
 
     //Error message
-    error = <span>{errorMessage}</span>;
+    error = (
+      <span
+        className={`${
+          errorTheme === "white"
+            ? styleUtils["error-white"]
+            : styleUtils["error-red"]
+        }`}
+      >
+        {errorMessage}
+      </span>
+    );
   }
 
   input = { ...input, className: inputClasses };
 
   return (
-    <div>
+    <div className={props.textClass}>
       <input {...input} ref={ref} />
       {error}
     </div>

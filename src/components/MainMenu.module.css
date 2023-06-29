@@ -1,0 +1,26 @@
+.menu {
+    margin-left: auto;
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 1.625rem;
+    margin-top: -0.125rem;
+}
+
+.item {
+    color: var(--color-dark-blue);
+    font-family: var(--font-Raleway);
+    font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .item {
+        font-size: 1rem;
+    }
+
+    .menu ul {
+        margin-top: 0.9375rem;
+        column-gap: 3.625rem;
+    }
+}

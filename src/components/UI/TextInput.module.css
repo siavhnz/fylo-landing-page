@@ -1,0 +1,22 @@
+.text-input {
+  border: 1px solid var(--color-bright-blue);
+  color: var(--color-light-gray);
+  font-size: 0.825rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 0.25rem;
+}
+
+.text-input:focus,
+.text-input:active {
+  outline: none;
+}
+
+.error-red {
+  color: var(--color-red);
+}
+.error-white {
+  color: var(--color-white);
+}
+.border-red {
+  border-color: var(--color-red);
+}

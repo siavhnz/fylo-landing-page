@@ -11,9 +11,6 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - [My process](#my-process)
   - [Workflow](#workflow)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -34,7 +31,7 @@ Users should be able to:
 
 - Solution: [frontendmentor.io](https://your-solution-url.com)
 
-- Live Site: [netlify.app](https://your-live-site-url.com)
+- Live Site: [cloudflare.com](https://your-live-site-url.com)
 
 ## My process
 
@@ -48,6 +45,9 @@ Users should be able to:
 
 - Creating components (Fylo page added, FooterMenu deleted)
 
+- Working on mobile design based on `design` folder and `style-guide.md` file
+
+- Working on desktop design
 
 
 ### Built with
@@ -60,15 +60,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-### What I learned
+- [HSL to HEX](https://htmlcolors.com/hsl-to-hex) - I use this site in my solutions to convert HSL to HEX colors
 
+- [CSS Tailwind Preflight](https://tailwindcss.com/docs/preflight) - A great CSS reset
 
-### Continued development
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com)
+- [Box shadow css generator](https://cssgenerator.org/box-shadow-css-generator.html)
 
 ## Author
 
@@ -83,6 +79,3 @@ Thanks To
 [Frontendmentor.io](https://www.frontendmentor.io/challenges) - for their Excitement challenges  
 
 [Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) - for such a great extension
-
-
-

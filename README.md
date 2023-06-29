@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://your-solution-url.com)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-Vx27gdGiGJ)
 
-- Live Site: [cloudflare.com](https://your-live-site-url.com)
+- Live Site: [cloudflare.com](https://fylo-landing-page-f37.pages.dev/)
 
 ## My process
 

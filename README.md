@@ -11,6 +11,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - [My process](#my-process)
   - [Workflow](#workflow)
   - [Built with](#built-with)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -40,15 +41,15 @@ Users should be able to:
 - Preparing workflow (Installing React, Adding Assets, Preparing README.md)
 
 - Identifying components
-  - Layout, Wrapper, Header, MainMenu, Hero, FastSignupForm, 
-  HowWorks, Testimonial, EarlyAccess, Footer, FooterMenu 
+
+  - Layout, Wrapper, Header, MainMenu, Hero, FastSignupForm,
+    HowWorks, Testimonial, EarlyAccess, Footer, FooterMenu
 
 - Creating components (Fylo page added, FooterMenu deleted)
 
 - Working on mobile design based on `design` folder and `style-guide.md` file
 
 - Working on desktop design
-
 
 ### Built with
 
@@ -59,6 +60,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+
+## Useful Resources
 
 - [HSL to HEX](https://htmlcolors.com/hsl-to-hex) - I use this site in my solutions to convert HSL to HEX colors
 
@@ -76,6 +79,6 @@ Users should be able to:
 
 Thanks To
 
-[Frontendmentor.io](https://www.frontendmentor.io/challenges) - for their Excitement challenges  
+[Frontendmentor.io](https://www.frontendmentor.io/challenges) - for their Excitement challenges
 
 [Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) - for such a great extension

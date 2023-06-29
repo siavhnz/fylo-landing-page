@@ -13,12 +13,25 @@ const FastSignup = (props) => {
   const handleClick = (event) => {
     event.preventDefault();
 
-    console.log(textInput.current.value);
+    textInput.current.value;
 
-    setError({
-      hasError: true,
-      errorMessage: "Please check your email",
-    });
+    const isEmailValid = validateEmail(textInput.current.value);
+    if (isEmailValid) {
+      setError({
+        hasError: false,
+        errorMessage: "",
+      });
+    } else {
+      setError({
+        hasError: true,
+        errorMessage: "Please check your email",
+      });
+    }
+  };
+
+  const validateEmail = (email) => {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
   };
 
   return (

@@ -23,7 +23,7 @@ const HowWorks = () => {
           </p>
           <div className={styleUtils["call-to-action-holder"]}>
             <a className={styleUtils["call-to-action"]} href="/">
-              <span href="./">See How Fylo works</span>
+              <span>See How Fylo works</span>
               <ArrowIcon focusable="false" aria-hidden="true" className={styleUtils["arrow-icon"]} />
             </a>
           </div>

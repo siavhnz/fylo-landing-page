@@ -56,6 +56,7 @@ const Footer = () => {
           </div>
           <div className={styleUtils.last}>
             <a
+              aria-label="go to our facebook"
               href="https://facebook.com"
               rel="noopener noreferrer"
               className={styleUtils["social-icon"]}
@@ -63,14 +64,16 @@ const Footer = () => {
               <FacebookIcon />
             </a>
             <a
-              href="https://facebook.com"
+              aria-label="go to our twitter"
+              href="https://twitter.com"
               rel="noopener noreferrer"
               className={styleUtils["social-icon"]}
             >
               <TwitterIcon />
             </a>
             <a
-              href="https://facebook.com"
+              aria-label="go to our instagram"
+              href="https://instagram.com"
               rel="noopener noreferrer"
               className={styleUtils["social-icon"]}
             >
